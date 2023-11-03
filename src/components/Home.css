@@ -1,0 +1,131 @@
+.navbar {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #292525;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 10px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    margin-top: 20px;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.right-align {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.user-score {
+  margin-right: 40px;
+  font-weight: 800;
+  font-size: 17px;
+}
+.user-box {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.Sign-out {
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.Sign-out:hover {
+  background-color: #cc80ff;
+  color: #fff;
+}
+
+.subject-dropdown select {
+  padding: 5px;
+  border: none;
+  background-color: #555;
+  color: white;
+  border-radius: 5px;
+}
+
+.subject-dropdown select:focus {
+  outline: none;
+  border: 2px solid #cc80ff;
+}
+.Note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90.2vh;
+  background: linear-gradient(to right, #9900ff, #cc80ff);
+}
+
+.Note h2 {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

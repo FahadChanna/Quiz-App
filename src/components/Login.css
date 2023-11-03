@@ -1,0 +1,36 @@
+.container{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #9900ff, #cc80ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerBox{
+    width: 70vh;
+    height: 70vh;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#footer button{
+    outline: none;
+    background-color: #9900ff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    font-weight: bold;
+}
+
+#footer button:hover {
+    background-color: #aa2aff;
+  }
+  

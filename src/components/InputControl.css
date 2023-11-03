@@ -1,0 +1,24 @@
+.coontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.coontainer label{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4b4b4b;
+}
+.coontainer input{
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    outline: none;
+    padding: 8px 15px;
+    color: black;
+}
+.container input:hover {
+    border-color: #ccc;
+  }
+
+  .container input:focus {
+    border-color: #9900ff;
+  }

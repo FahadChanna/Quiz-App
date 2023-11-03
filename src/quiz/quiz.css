@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quiz-containar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90.2vh;
+  background: linear-gradient(to right, #9900ff, #cc80ff);
+}
+
+.cuunntainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 500px;
+  width: 500px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  box-shadow: 10px 14px 8px 4px #34A;
+}
+.heading-txt {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.questionn {
+  margin: 8px;
+  box-shadow: 0px 0px 10px 1px #a2a3a3;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: large;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  min-width: 100%;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#question-number {
+  margin-right: 5px;
+}
+.option-container {
+  display: flex;
+  flex-direction: column;
+  margin: 6px 4px;
+  width: 100%;
+  padding: 10px;
+}
+.optionbtn {
+  padding: 5px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  margin: 5px;
+  min-height: 30px;
+  background-color: #fff;
+}
+
+.checked {
+  background: linear-gradient(to right, #9900ff, #cc80ff);
+  color: white;
+  box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+  border-radius: 10px;
+}
+.optionbtn:hover {
+  background-color: #276272;
+  border-radius: 10px;
+  color: white;
+}
+#next-button {
+  padding: 10px;
+  border: none;
+  background-color: #276272;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  font-size: larger;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: 0.2s;
+  width: 100px;
+  position: absolute;
+  bottom: 100px;
+}
+#next-button:active {
+  box-shadow: none;
+}
+.Status p{
+  font-size: large;
+}
